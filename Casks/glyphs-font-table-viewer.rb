@@ -6,7 +6,7 @@ cask "glyphs-font-table-viewer" do
   name "Font Table Viewer"
   homepage "https://glyphsapp.com/tools/fonttableviewer"
 
-  depends_on macos: ">= :mavericks"
+  depends_on macos: ">= :el_capitan"
 
   app "FontTableViewer.app"
 
