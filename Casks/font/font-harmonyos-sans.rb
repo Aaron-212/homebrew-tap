@@ -51,5 +51,4 @@ cask "font-harmonyos-sans" do
   font "HarmonyOS Sans /HarmonyOS_Sans_TC/HarmonyOS_SansTC_Thin.ttf"
 
   # No zap stanza required
-
 end
