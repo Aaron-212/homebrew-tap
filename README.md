@@ -12,11 +12,13 @@ brew tap Aaron-212/tap
 
 #### Open source fonts that are not available in Homebrew Casks
 
+- `font-cef-fonts-cjk`
 - `font-playwrite`
 
 #### Free-to-use fonts by enterprises
 
 - MiSans by Xiaomi
+
   - `font-misans-arabic`
   - `font-misans-devanagari`
   - `font-misans-gurmukhi`
@@ -31,6 +33,7 @@ brew tap Aaron-212/tap
   - `font-misans`
 
 - HarmonyOS Sans by Huawei
+
   - `font-harmonyos-sans`
 
 - Honor Sans by Honor
