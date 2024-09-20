@@ -1,4 +1,4 @@
-cask "glyphs-font-table-viewer" do
+cask "fonttableviewer" do
   version :latest
   sha256 :no_check
 
