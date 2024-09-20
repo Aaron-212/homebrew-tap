@@ -7,8 +7,8 @@ cask "font-cef-fonts-cjk" do
   desc "Completely hand-drawn CJK font"
   homepage "https://github.com/Partyb0ssishere/cef-fonts-cjk"
 
-  font "cef-fonts-cjk-main/CEFFontsCJK-Regular.ttf"
-  font "cef-fonts-cjk-main/CEFFontsCJKMono-Regular.ttf"
+  font "cef-fonts-cjk-#{version}/CEFFontsCJK-Regular.ttf"
+  font "cef-fonts-cjk-#{version}/CEFFontsCJKMono-Regular.ttf"
 
   # No zap stanza required
 end
