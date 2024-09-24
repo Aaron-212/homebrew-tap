@@ -12,6 +12,7 @@ brew tap Aaron-212/tap
 
 #### Open source fonts that are not available in Homebrew Casks
 
+- `font-babelstone-han`
 - `font-cef-fonts-cjk`
 - `font-playwrite`
 
@@ -46,6 +47,7 @@ brew tap Aaron-212/tap
 
 ### Software
 
+- `mastergo`
 - `fontra-pak`
 - `fonttableviewe`
 - `vroid-studio`
