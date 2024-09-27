@@ -6,11 +6,11 @@ cask "fonttableviewer" do
   name "Font Table Viewer"
   desc "Viewing and comparing OpenType tables of any number of TTFs and CFFs"
   homepage "https://glyphsapp.com/tools/fonttableviewer"
-  
+
   livecheck do
-  url :url
-  regex(/FontTableViewer(\d+(?:\.\d+)*-\d+)\.zip/i)
-  strategy :header_match
+    url :url
+    regex(/FontTableViewer(\d+(?:\.\d+)*-\d+)\.zip/i)
+    strategy :header_match
   end
 
   depends_on macos: ">= :sierra"

@@ -6,7 +6,7 @@ cask "font-cef-fonts-cjk" do
   name "CEF Fonts CJK"
   desc "Completely hand-drawn CJK font"
   homepage "https://github.com/Partyb0ssishere/cef-fonts-cjk"
-  
+
   livecheck do
     url "https://github.com/Partyb0ssishere/cef-fonts-cjk/tags"
     regex(/^v?(\d+(?:\.\d+)+)$/i)

@@ -5,7 +5,7 @@ cask "font-babelstone-han" do
   url "https://babelstone.co.uk/Fonts/Download/BabelStoneHan-#{version}.zip"
   name "Babelstone Han"
   homepage "https://babelstone.co.uk/Fonts/Han.html"
-  
+
   livecheck do
     url :homepage
     regex(/href=.*?BabelStoneHan[._-]v?(\d+(?:\.\d+)+)\.zip/i)

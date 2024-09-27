@@ -11,7 +11,7 @@ cask "fontra-pak" do
     strategy :header_match do |headers|
       timestamp = headers["last-modified"]
       next if timestamp.blank?
-      
+
       original_time = Time.parse(timestamp.to_s)
       original_time.strftime("%Y%m%d-%H%M")
     end
