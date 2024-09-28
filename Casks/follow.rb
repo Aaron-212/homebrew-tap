@@ -1,6 +1,6 @@
 cask "follow" do
-  version "0.0.1-alpha.17"
-  sha256 "c41445660987aa1801dacf53cefbcbd8d0924e5d02a10c8c92716c645bea3e42"
+  version "0.0.1-alpha.18"
+  sha256 "60dfa196c6f64b32948866c0c5cbfcca3523fcb7fc4a063eddabe3da2817fcc1"
 
   url "https://github.com/RSSNext/Follow/releases/download/v#{version}/Follow-#{version}-macos-universal.dmg",
       verified: "github.com/RSSNext/Follow/"
