@@ -1,8 +1,9 @@
 cask "fontra-pak" do
   version "20240927-0159"
-  sha256 "84858568e31d29b58058c8e99049aa60a16a6d06564f9fb6b29381fc84af12de"
+  sha256 :no_check
 
-  url "https://fontra-download.black-foundry.com/FontraPak.dmg"
+  url "https://fontra-download.black-foundry.com/FontraPak.dmg",
+    verified: "fontra-download.black-foundry.com/"
   name "Fontra Pak"
   homepage "https://fontra.xyz/"
 
@@ -18,6 +19,10 @@ cask "fontra-pak" do
   end
 
   depends_on macos: ">= :big_sur"
+  
+  caveats do
+    requires_rosetta
+  end
 
   app "Fontra Pak.app"
 
