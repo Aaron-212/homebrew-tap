@@ -14,11 +14,8 @@ cask "founder-client" do
     regex(/href_data=.*?FounderClient[._-]v?(\d+(?:\.\d+)+)\.dmg/i)
   end
 
+  auto_updates true
   depends_on macos: ">= :big_sur"
-  
-  caveats do
-    requires_rosetta
-  end
 
   app "方正字库.app"
 
@@ -28,4 +25,8 @@ cask "founder-client" do
     "~/Library/Preferences/com.founder.FounderFont.plist",
     "~/Library/Saved Application State/com.founder.FounderFont.savedState",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end
