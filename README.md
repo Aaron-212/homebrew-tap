@@ -16,9 +16,24 @@ brew tap Aaron-212/tap
 - `font-cef-fonts-cjk`
 - `font-playwrite`
 
-#### Free-to-use fonts by enterprises
+#### Enterprise fonts
 
-- MiSans by Xiaomi
+> [!CAUTION]
+> The following fonts are enterprise fonts.
+>
+> They might be marked as "free for non-commercial use" but are not open source.
+>
+> You may get into legal trouble if you use them without permission.
+>
+> **Please read the license agreements of the fonts before downloading and using them.**
+
+> [!NOTE]
+> Disclaimer: This is **NOT** a redistribution of the fonts.
+> The fonts are downloaded from the official sources and are not modified in any way.
+
+- MiSans by Xiaomi, Hanyi and MonoType
+
+  [License](https://hyperos.mi.com/font-download/MiSans字体知识产权许可协议.pdf)
 
   - `font-misans-arabic`
   - `font-misans-devanagari`
@@ -33,12 +48,17 @@ brew tap Aaron-212/tap
   - `font-misans-tibetan`
   - `font-misans`
 
-- HarmonyOS Sans by Huawei
+- HarmonyOS Sans by Huawei and Hanyi
 
   - `font-harmonyos-sans`
 
-- Honor Sans by Honor
+- Honor Sans by Honor and FounderType
+
   - `font-honor-sans`
+
+- Vivo Sans by Vivo and FounderType
+
+  - `font-vivo-sans`
 
 #### Niche fonts
 
@@ -51,3 +71,5 @@ brew tap Aaron-212/tap
 - `fontra-pak`
 - `fonttableviewe`
 - `vroid-studio`
+- `founder-client`
+- `follow` (will migrate to homebrew-cask repo on production release)
