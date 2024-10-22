@@ -72,4 +72,3 @@ brew tap Aaron-212/tap
 - `fonttableviewe`
 - `vroid-studio`
 - `founder-client`
-- `follow` (will migrate to homebrew-cask repo on production release)
