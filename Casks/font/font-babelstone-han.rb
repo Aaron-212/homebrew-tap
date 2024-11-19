@@ -1,6 +1,6 @@
 cask "font-babelstone-han" do
-  version "16.0.1"
-  sha256 "94dbbf6a02439dd79888dd541a3b2604c309fb5da6dc2ea8e2265791e85c1eff"
+  version "16.0.2"
+  sha256 "9ab664aec4df6ceb32768d1356febda39cd6d5f2ed0c38f940ce7bf68d20d779"
 
   url "https://babelstone.co.uk/Fonts/Download/BabelStoneHan-#{version}.zip"
   name "Babelstone Han"
