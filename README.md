@@ -22,6 +22,7 @@ brew tap Aaron-212/tap
 > The following fonts are enterprise fonts.
 >
 > They might be marked as "free for non-commercial use" but are not open source.
+> In other words, they do not use an OFL license.
 >
 > You may get into legal trouble if you use them without permission.
 >
@@ -69,6 +70,6 @@ brew tap Aaron-212/tap
 
 - `mastergo`
 - `fontra-pak`
-- `fonttableviewe`
+- `fonttableviewer`
 - `vroid-studio`
 - `founder-client`
