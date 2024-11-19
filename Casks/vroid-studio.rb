@@ -1,6 +1,6 @@
 cask "vroid-studio" do
-  version "1.29.3,2tLE2KD3ES"
-  sha256 "d387baa027aa45f8dff814fdb380c948887b715d29fa333429b799c12cf2468b"
+  version "1.29.4,V1wQcB3yy1"
+  sha256 "6b288f4052f20ed5299ef5ef2db61c57b314e097c44c7f9c444e75365d85d41e"
 
   url "https://download.vroid.com/dist/#{version.csv.second}/VRoidStudio-v#{version.csv.first}-mac.dmg"
   name "VRoid-Studio"
