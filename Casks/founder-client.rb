@@ -8,7 +8,6 @@ cask "founder-client" do
   desc "Font client from FounderType"
   homepage "https://foundertype.com/"
 
-  # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
     url "https://www.foundertype.com/index.php/Index/ftXplorer"
     regex(/href_data=.*?FounderClient[._-]v?(\d+(?:\.\d+)+)\.dmg/i)
@@ -19,7 +18,6 @@ cask "founder-client" do
 
   app "方正字库.app"
 
-  # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
   zap trash: [
     "~/Library/Application Support/方正字库",
     "~/Library/Preferences/com.founder.FounderFont.plist",

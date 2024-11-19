@@ -20,7 +20,6 @@ cask "mastergo" do
 
   app "MasterGo.app"
 
-  # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
   zap trash: [
     "~/Library/Application Support/CrashReporter/MasterGo_9343BB66-A06C-5697-9041-00EFBB1CEF39.plist",
     "~/Library/Preferences/com.electron.master-desktop.plist",
