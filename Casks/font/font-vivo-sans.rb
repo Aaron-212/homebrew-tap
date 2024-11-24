@@ -1,8 +1,9 @@
 cask "font-vivo-sans" do
   version :latest
   sha256 :no_check
-  
-  url "https://h5-pre.vivo.com.cn/pcvivo/OS5-font/vivo%20Sans.zip"
+
+  url "https://h5-pre.vivo.com.cn/pcvivo/OS5-font/vivo%20Sans.zip",
+      verified: "h5-pre.vivo.com.cn/pcvivo/OS5-font/"
   name "Vivo Sans"
   homepage "https://www.vivo.com/originos"
 
