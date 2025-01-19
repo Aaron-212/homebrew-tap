@@ -1,5 +1,5 @@
 cask "fontra-pak" do
-  version "20240927-0159"
+  version "20250117-0157"
   sha256 :no_check
 
   url "https://fontra-download.black-foundry.com/FontraPak.dmg",
