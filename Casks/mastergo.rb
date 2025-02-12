@@ -1,9 +1,9 @@
 cask "mastergo" do
   arch arm: "macos-arm", intel: "macos"
 
-  version "1.9.1"
-  sha256 intel: "dde3a4c0be3aef13e72e271198253ffc140fee7d082109bb8561e05ac732c4fd",
-         arm:   "605851c0760bbf198065b7bfc6cee22095ecd05928b6a8ba284e8a3e7f5492c1"
+  version "1.10.0"
+  sha256 intel: "0b9724d6e6a3caf8666fa9accaa07c8e2cd37f29bcc7b416ad385da523fc524a",
+         arm:   "9553a7f349cf2ba8ac8092fb701dbcf1ebbe91b1585021076570d588b2b94f9e"
 
   url "https://static.mastergo.com/plugins/desktop/#{arch}/MasterGo-#{version}.dmg"
   name "MasterGo"
