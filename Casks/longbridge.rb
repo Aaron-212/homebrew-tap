@@ -1,9 +1,9 @@
 cask "longbridge" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.2.0"
-  sha256 arm:   "f7a3a0edcd9f0b253e9f84f3e0ca99b288b38fac45a2e90e9438c4c783500614",
-         intel: "1ba95f58722f616a3753f386124716679b99644c0436fc9480240de95aaa363f"
+  version "0.2.1"
+  sha256 arm:   "fcf91213bf62767be0beda51bf9601a10d51f1fdaacefbb1c509f55d75402213",
+         intel: "bbd2a2565b740094bdc754c99e039372143efebe1bae8e7c0877248aa604bf35"
 
   url "https://assets.lbctrl.com/github/release/longbridge-desktop/stable/longbridge-v#{version}-macos-#{arch}.dmg",
       verified: "assets.lbctrl.com/github/release/longbridge-desktop/"
