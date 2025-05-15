@@ -1,3 +1,4 @@
 {
-  "follow": "homebrew/cask"
+    "trae": "homebrew/cask",
+    "follow": "homebrew/cask"
 }
