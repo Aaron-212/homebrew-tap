@@ -1,4 +1,5 @@
 {
     "trae": "homebrew/cask",
-    "follow": "homebrew/cask"
+    "follow": "homebrew/cask",
+    "font-harmonyos-sans": "homebrew/cask"
 }
