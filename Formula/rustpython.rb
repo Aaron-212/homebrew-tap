@@ -1,9 +1,9 @@
 class Rustpython < Formula
   desc "Python Interpreter written in Rust"
   homepage "https://rustpython.github.io"
-  url "https://github.com/RustPython/RustPython/archive/refs/tags/2025-05-12-main-29.tar.gz"
-  version "2025-05-12-main-29"
-  sha256 "1b06f43d98e42dcc05c49a47050181d48b58c892b3686f52a88251dc73de71b9"
+  url "https://github.com/RustPython/RustPython/archive/refs/tags/2025-06-30-main-36.tar.gz"
+  version "2025-06-30-main-36"
+  sha256 "ce1580d7349896d20fe88eccb0fa6be9bf72a23af7a0c384d63c9978a8bbdb1a"
   license "MIT"
 
   depends_on "rust" => :build
