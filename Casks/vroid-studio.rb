@@ -19,7 +19,7 @@ cask "vroid-studio" do
     end
   end
 
-  depends_on macos: ">= :high_sierra"
+  depends_on macos: ">= :ventura"
 
   app "VRoidStudio.app"
 

@@ -13,7 +13,7 @@ cask "fonttableviewer" do
     strategy :header_match
   end
 
-  depends_on macos: ">= :sierra"
+  depends_on macos: ">= :ventura"
 
   app "FontTableViewer.app"
 
