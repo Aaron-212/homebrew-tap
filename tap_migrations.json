@@ -1,5 +1,6 @@
 {
     "trae": "homebrew/cask",
     "follow": "homebrew/cask",
-    "font-harmonyos-sans": "homebrew/cask"
+    "font-harmonyos-sans": "homebrew/cask",
+    "fontra-pak": "homebrew/cask"
 }
