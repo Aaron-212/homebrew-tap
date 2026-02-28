@@ -1,6 +1,6 @@
 cask "vroid-studio" do
-  version "2.1.5,WIQ8Wy7INR"
-  sha256 "30a882ae5294c99e3419097d38d5c02d0b3a2f3ec6467ebcbec3a230a851c8b5"
+  version "2.11.0,tEuggsKrtY"
+  sha256 "05872bb53f0edc27f5d6c3c1ab01e57a445123126be7addd509816b37e2f7b87"
 
   url "https://download.vroid.com/dist/#{version.csv.second}/VRoidStudio-v#{version.csv.first}-mac.dmg"
   name "VRoid-Studio"
@@ -19,7 +19,7 @@ cask "vroid-studio" do
     end
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :big_sur"
 
   app "VRoidStudio.app"
 
