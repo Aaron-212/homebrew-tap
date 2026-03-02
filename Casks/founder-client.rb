@@ -24,7 +24,5 @@ cask "founder-client" do
     "~/Library/Saved Application State/com.founder.FounderFont.savedState",
   ]
 
-  caveats do
-    requires_rosetta
-  end
+  caveats "Unsigned app."
 end
