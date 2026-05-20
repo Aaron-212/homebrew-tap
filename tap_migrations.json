@@ -2,5 +2,6 @@
     "trae": "homebrew/cask",
     "follow": "homebrew/cask",
     "font-harmonyos-sans": "homebrew/cask",
-    "fontra-pak": "homebrew/cask"
+    "fontra-pak": "homebrew/cask",
+    "t3-code": "homebrew/cask"
 }
