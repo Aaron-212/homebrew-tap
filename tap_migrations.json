@@ -3,5 +3,6 @@
     "follow": "homebrew/cask",
     "font-harmonyos-sans": "homebrew/cask",
     "fontra-pak": "homebrew/cask",
-    "t3-code": "homebrew/cask"
+    "t3-code": "homebrew/cask",
+    "icon-composer": "homebrew/cask"
 }
