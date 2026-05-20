@@ -20,18 +20,4 @@ cask "airi" do
   app "Airi.app"
 
   zap trash: ""
-
-  caveats do
-    app_name = @cask.name.first
-
-    <<~EOS
-      #{app_name} is not signed by an Apple Developer certificate.
-      This means the app is probably signed with an Ad-Hoc profile.
-      Gatekeeper may block this app from opening.
-
-      If you know what you are doing, run:
-        sudo xattr -c '#{appdir}/#{app_name}.app'
-      in the terminal.
-    EOS
-  end
 end
