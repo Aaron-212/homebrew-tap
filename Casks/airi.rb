@@ -19,5 +19,8 @@ cask "airi" do
 
   app "Airi.app"
 
-  zap trash: ""
+  zap trash: [
+    "~/Library/Application Support/ai.moeru.airi",
+    "~/Library/Preferences/ai.moeru.airi.plist",
+  ]
 end
