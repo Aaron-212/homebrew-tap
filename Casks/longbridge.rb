@@ -16,7 +16,7 @@ cask "longbridge" do
     regex(/href=.*?longbridge[._-]v?(\d+(?:\.\d+)+)-macos-#{arch}\.dmg/i)
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Longbridge.app"
 

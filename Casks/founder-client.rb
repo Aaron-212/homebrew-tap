@@ -13,8 +13,10 @@ cask "founder-client" do
     regex(/href_data=.*?FounderClient[._-]v?(\d+(?:\.\d+)+)\.dmg/i)
   end
 
+  disable! date: "2026-06-19", because: :no_longer_available
+
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "方正字库.app"
 
